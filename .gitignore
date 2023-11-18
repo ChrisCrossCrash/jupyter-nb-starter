@@ -1,0 +1,31 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment
+.venv/
+
+# Jupyter log files
+*.log
+
+# Python cache files
+__pycache__/
+
+# Jupyter Notebook configuration files
+.jupyter/
+.jupyter_checkpoints/
+
+# Jupyter Notebooks kernel connection files
+*.json
+
+# Jupyter Notebook workspace
+.ipynb_workspace/
+
+# Any local data files or datasets
+data/
+
+# Environment-specific files
+.env
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
