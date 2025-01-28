@@ -1,16 +1,18 @@
-[tool.poetry]
+[project]
 name = "jupyter-nb-starter"
 version = "0.1.0"
 description = "A handy starter for projects that use Jupyter Notebook."
-authors = ["Christopher Kumm <chrislkumm@protonmail.com>"]
-license = "MIT"
+authors = [
+    {name = "Christopher Kumm",email = "chrislkumm@protonmail.com"}
+]
+license = {text = "MIT"}
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-jupyter = "^1.0.0"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter (>=1.1.1,<2.0.0)"
+]
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
